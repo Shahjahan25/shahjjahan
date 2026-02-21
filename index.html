@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MD SHAH JAHAN ALI SORKAR | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* NAVIGATION */
+nav{
+    position:fixed;
+    width:100%;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    padding:15px 0;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#0d6efd;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#0d6efd,#001f3f);
+    color:white;
+    padding:150px 20px 80px;
+    text-align:center;
+}
+
+.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+header h1{
+    font-size:38px;
+}
+
+header p{
+    margin-top:8px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 30px;
+    background:white;
+    color:#0d6efd;
+    font-weight:600;
+    border-radius:30px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0d6efd;
+    color:white;
+}
+
+/* SECTION */
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:28px;
+    margin-bottom:40px;
+    color:#0d6efd;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+    margin-bottom:20px;
+}
+
+/* GRID */
+.info-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.info-box{
+    background:#eef3ff;
+    padding:15px;
+    border-radius:10px;
+}
+
+/* SKILLS */
+.skills span{
+    display:inline-block;
+    background:#0d6efd;
+    color:white;
+    padding:8px 15px;
+    border-radius:20px;
+    margin:5px;
+    font-size:14px;
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th, table td{
+    padding:12px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+/* FOOTER */
+footer{
+    background:#001f3f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    nav ul{
+        flex-direction:column;
+        gap:15px;
+    }
+    header h1{
+        font-size:26px;
+    }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#personal">Personal Info</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HEADER -->
+<header>
+
+<img src="profile.jpg" alt="Profile Photo" class="profile-img">
+
+<h1>MD SHAH JAHAN ALI SORKAR</h1>
+<p>Trainee Officer | Banking & Finance Professional</p>
+<p>📍 Sirajganj | 📞 01793219396 | ✉ shahjjahan.jnu@gmail.com</p>
+
+<a href="#" class="btn">Download CV</a>
+
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+<h2 class="section-title">Career Objective</h2>
+<div class="card">
+<p>
+To build a strong professional career in Banking & Financial sector by utilizing honesty, integrity and dedication while continuously improving professional skills.
+</p>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2 class="section-title">Employment History</h2>
+<div class="card">
+<h3>Trainee Officer (March 2025 - Present)</h3>
+<p><strong>NRB Bank Ltd.</strong> | Retail & SME Department</p>
+<ul>
+<li>Customer Service Operations</li>
+<li>Retail & SME Credit Processing</li>
+<li>Loan Documentation & Client Management</li>
+</ul>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+<h2 class="section-title">Academic Qualification</h2>
+<div class="card">
+<table>
+<tr>
+<th>Degree</th>
+<th>Institute</th>
+<th>Result</th>
+<th>Year</th>
+</tr>
+<tr>
+<td>MBA (Marketing)</td>
+<td>Jagannath University</td>
+<td>CGPA 3.67</td>
+<td>2022</td>
+</tr>
+<tr>
+<td>BBA (Marketing)</td>
+<td>Jagannath University</td>
+<td>CGPA 3.57</td>
+<td>2021</td>
+</tr>
+<tr>
+<td>HSC</td>
+<td>Akbar Ali Govt. College</td>
+<td>GPA 5.00</td>
+<td>2017</td>
+</tr>
+<tr>
+<td>SSC</td>
+<td>Ghatina Multilateral High School</td>
+<td>GPA 5.00</td>
+<td>2015</td>
+</tr>
+</table>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2 class="section-title">Professional Skills</h2>
+<div class="card skills">
+<span>MS Excel</span>
+<span>MS Word</span>
+<span>PowerPoint</span>
+<span>Sales & Marketing</span>
+<span>CRM</span>
+<span>Retail Banking</span>
+<span>SME Loan</span>
+<span>Customer Service</span>
+</div>
+</section>
+
+<!-- PERSONAL INFO -->
+<section id="personal">
+<h2 class="section-title">Personal Information</h2>
+<div class="card info-grid">
+<div class="info-box"><strong>Father's Name:</strong> MD. Kauam Sorkar</div>
+<div class="info-box"><strong>Mother's Name:</strong> MST. Tara Khatun</div>
+<div class="info-box"><strong>Date of Birth:</strong> October 30, 1999</div>
+<div class="info-box"><strong>Gender:</strong> Male</div>
+<div class="info-box"><strong>Marital Status:</strong> Unmarried</div>
+<div class="info-box"><strong>Nationality:</strong> Bangladeshi</div>
+<div class="info-box"><strong>Religion:</strong> Islam</div>
+<div class="info-box"><strong>Permanent Address:</strong> Shahjahanpur, Ullapara, Sirajganj</div>
+<div class="info-box"><strong>Current Location:</strong> Sirajganj</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2 class="section-title">Contact</h2>
+<div class="card">
+<p><strong>Phone:</strong> 01793219396</p>
+<p><strong>Email:</strong> shahjjahan.jnu@gmail.com</p>
+<p><strong>Location:</strong> Sirajganj, Bangladesh</p>
+</div>
+</section>
+
+<footer>
+© 2026 MD SHAH JAHAN ALI SORKAR | All Rights Reserved
+</footer>
+
+</body>
+</html>
